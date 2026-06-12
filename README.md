@@ -147,10 +147,14 @@ Ultralytics offers two licensing options to suit different needs:
 
 ## 📞 Contact
 
-- [YOLO26 documentation](https://docs.ultralytics.com/models/yolo26)
-- [Ultralytics Python package](https://pypi.org/project/ultralytics/)
-- [Canonical source code](https://github.com/ultralytics/ultralytics)
-- [Support and issues](https://github.com/ultralytics/ultralytics/issues/new/choose)
+For YOLO26 usage guidance, start with the [YOLO26 documentation](https://docs.ultralytics.com/models/yolo26). Install
+or upgrade the [Ultralytics Python package](https://pypi.org/project/ultralytics/) with `pip`, and review the
+[canonical source code](https://github.com/ultralytics/ultralytics) for implementation details.
+
+> [!IMPORTANT]
+> Please submit bug reports and feature requests in the
+> [ultralytics/ultralytics issue tracker](https://github.com/ultralytics/ultralytics/issues/new/choose), where
+> maintainers triage them alongside the source code.
 
 For questions, discussions, and community support, join our active communities on
 [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the
