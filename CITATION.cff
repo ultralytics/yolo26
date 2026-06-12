@@ -1,10 +1,10 @@
 # This CITATION.cff file was generated with https://bit.ly/cffinit
 
 cff-version: 1.2.0
-title: Ultralytics YOLO26
+title: Ultralytics YOLO26 Discovery Repository
 message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
+  If you use YOLO26, please cite the canonical Ultralytics
+  paper using the preferred citation from this file.
 type: software
 authors:
   - given-names: Glenn
@@ -19,9 +19,9 @@ authors:
     family-names: Chaurasia
     affiliation: Ultralytics
     orcid: "https://orcid.org/0000-0002-7603-6750"
-repository-code: "https://github.com/ultralytics/ultralytics"
+repository-code: "https://github.com/ultralytics/yolo26"
 url: "https://docs.ultralytics.com/models/yolo26"
-license: AGPL-3.0
+license: AGPL-3.0-only
 version: 8.4.0
 date-released: "2026-06-03"
 preferred-citation:
