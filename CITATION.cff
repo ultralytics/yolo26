@@ -20,9 +20,9 @@ authors:
     affiliation: Ultralytics
     orcid: "https://orcid.org/0000-0002-7603-6750"
 repository-code: "https://github.com/ultralytics/ultralytics"
-url: "https://docs.ultralytics.com/models/yolo26/"
+url: "https://docs.ultralytics.com/models/yolo26"
 license: AGPL-3.0
-version: 26.0.0
+version: 8.4.0
 date-released: "2026-06-03"
 preferred-citation:
   type: article

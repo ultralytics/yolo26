@@ -21,8 +21,8 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/zh/models/yolo26/) 可通过官方
-[Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、图像分类、姿态估计、旋转目标检测和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
+[Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/zh/models/yolo26) 可通过官方
+[Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、语义分割、图像分类、姿态估计、旋转目标检测和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
 
 本仓库是 YOLO26 的轻量级发现入口。官方实现、软件包发布、模型下载、Issues 和 Pull Requests 均在
 [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 仓库维护。
@@ -34,10 +34,17 @@
 ## 📄 文档
 
 请参阅下文了解快速安装和 YOLO26 使用示例。有关训练、验证、预测和部署的完整指南，请参阅
-[Ultralytics 文档](https://docs.ultralytics.com/zh/)。
+[Ultralytics 文档](https://docs.ultralytics.com/zh)。
 
 <details open>
 <summary>安装</summary>
+
+在 [Python>=3.8](https://www.python.org/) 环境中安装 `ultralytics` 包，并使用
+[PyTorch](https://pytorch.org/get-started/locally/)。
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
+[![Ultralytics Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
 
 ```bash
 pip install ultralytics
@@ -68,23 +75,29 @@ results[0].show()
 
 ## ✨ 模型
 
-YOLO26 模型支持检测、分割、分类、姿态估计和旋转目标检测。所有模型权重都会在首次使用时从最新的 Ultralytics assets 发布版本自动下载。
+YOLO26 模型支持检测、实例分割、语义分割、分类、姿态估计和旋转目标检测。所有模型权重都会在首次使用时从最新的 Ultralytics assets 发布版本自动下载。
 
 <a href="https://docs.ultralytics.com/zh/tasks" target="_blank">
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| 模型系列    | 示例权重                                                                                  | 任务         | Train | Val | Predict | Export |
-| ----------- | ----------------------------------------------------------------------------------------- | ------------ | ----- | --- | ------- | ------ |
-| YOLO26      | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt`                          | 检测         | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-seg  | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt`      | 实例分割     | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-cls  | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt`      | 分类         | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-pose | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | 姿态估计     | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-obb  | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt`      | 旋转目标检测 | ✅    | ✅  | ✅      | ✅     |
+| 模型系列 | 示例权重 | 任务 | Train | Val | Predict | Export |
+| --- | --- | --- | --- | --- | --- | --- |
+| [YOLO26](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt` | [检测](https://docs.ultralytics.com/zh/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-seg](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt` | [实例分割](https://docs.ultralytics.com/zh/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-sem](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-sem.pt` `yolo26s-sem.pt` `yolo26m-sem.pt` `yolo26l-sem.pt` `yolo26x-sem.pt` | [语义分割](https://docs.ultralytics.com/zh/tasks/semantic) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-cls](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt` | [分类](https://docs.ultralytics.com/zh/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-pose](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-obb](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt` | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
 
 ## 🧩 集成
 
-Ultralytics 与领先 AI 平台的集成扩展了数据集标注、训练、可视化、部署和模型管理工作流。了解 [Ultralytics 集成](https://docs.ultralytics.com/integrations)。
+Ultralytics 集成扩展了数据集标注、训练、可视化、部署和模型管理工作流。了解
+[Ultralytics Platform](https://platform.ultralytics.com) 和
+[Ultralytics 集成文档](https://docs.ultralytics.com/integrations)，将 YOLO26 连接到您的 AI 工作流，包括常用导出格式
+[TensorRT](https://docs.ultralytics.com/integrations/tensorrt)、[ONNX](https://docs.ultralytics.com/integrations/onnx)、
+[CoreML](https://docs.ultralytics.com/integrations/coreml) 和
+[TFLite](https://docs.ultralytics.com/integrations/tflite)。
 
 <a href="https://platform.ultralytics.com" target="_blank">
     <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
@@ -104,7 +117,7 @@ Ultralytics 与领先 AI 平台的集成扩展了数据集标注、训练、可�
 
 ## 📞 联系方式
 
-- YOLO26 文档：https://docs.ultralytics.com/zh/models/yolo26/
+- YOLO26 文档：https://docs.ultralytics.com/zh/models/yolo26
 - Ultralytics 包：https://pypi.org/project/ultralytics/
 - 官方源代码：https://github.com/ultralytics/ultralytics
 - 支持与 Issues：https://github.com/ultralytics/ultralytics/issues/new/choose

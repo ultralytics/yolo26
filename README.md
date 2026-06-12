@@ -21,10 +21,10 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/models/yolo26/) is available
+[Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/models/yolo26) is available
 through the official [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) package. It supports object
-detection, instance segmentation, image classification, pose estimation, oriented object detection, and tracking in a
-fast, accurate, and easy to use Python and CLI workflow.
+detection, instance segmentation, semantic segmentation, image classification, pose estimation, oriented object
+detection, and tracking in a fast, accurate, and easy to use Python and CLI workflow.
 
 This repository is a lightweight discovery page for YOLO26. The canonical implementation, package releases, model
 downloads, issues, and pull requests are maintained in [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics).
@@ -52,7 +52,7 @@ downloads, issues, and pull requests are maintained in [ultralytics/ultralytics]
 ## 📄 Documentation
 
 See below for quickstart installation and YOLO26 usage examples. For comprehensive guidance on training, validation,
-prediction, and deployment, refer to the full [Ultralytics Docs](https://docs.ultralytics.com/).
+prediction, and deployment, refer to the full [Ultralytics Docs](https://docs.ultralytics.com).
 
 <details open>
 <summary>Install</summary>
@@ -93,27 +93,32 @@ results[0].show()
 
 ## ✨ Models
 
-YOLO26 models are available for detection, segmentation, classification, pose estimation, and oriented object detection.
-All model weights download automatically from the latest Ultralytics assets release on first use.
+YOLO26 models are available for detection, instance segmentation, semantic segmentation, classification, pose estimation,
+and oriented object detection. All model weights download automatically from the latest Ultralytics assets release on
+first use.
 
 <a href="https://docs.ultralytics.com/tasks" target="_blank">
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| Model Family | Example Weights                                                                           | Task                  | Train | Val | Predict | Export |
-| ------------ | ----------------------------------------------------------------------------------------- | --------------------- | ----- | --- | ------- | ------ |
-| YOLO26       | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt`                          | Detection             | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-seg   | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt`      | Instance Segmentation | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-cls   | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt`      | Classification        | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-pose  | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | Pose Estimation       | ✅    | ✅  | ✅      | ✅     |
-| YOLO26-obb   | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt`      | Oriented Detection    | ✅    | ✅  | ✅      | ✅     |
+| Model Family | Example Weights | Task | Train | Val | Predict | Export |
+| --- | --- | --- | --- | --- | --- | --- |
+| [YOLO26](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt` | [Detection](https://docs.ultralytics.com/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-seg](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt` | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-sem](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-sem.pt` `yolo26s-sem.pt` `yolo26m-sem.pt` `yolo26l-sem.pt` `yolo26x-sem.pt` | [Semantic Segmentation](https://docs.ultralytics.com/tasks/semantic) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-cls](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt` | [Classification](https://docs.ultralytics.com/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-pose](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO26-obb](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt` | [Oriented Detection](https://docs.ultralytics.com/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
 
 ## 🧩 Integrations
 
-Ultralytics integrations with leading AI platforms extend dataset labeling, training, visualization, deployment, and
-model management workflows. Explore integrations with [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases),
-[Comet ML](https://docs.ultralytics.com/integrations/comet), [Roboflow](https://docs.ultralytics.com/integrations/roboflow),
-and [Intel OpenVINO](https://docs.ultralytics.com/integrations/openvino).
+Ultralytics integrations extend dataset labeling, training, visualization, deployment, and model management workflows.
+Explore [Ultralytics Platform](https://platform.ultralytics.com) and the
+[Ultralytics Integrations docs](https://docs.ultralytics.com/integrations) to connect YOLO26 with your AI stack,
+including popular export formats like [TensorRT](https://docs.ultralytics.com/integrations/tensorrt),
+[ONNX](https://docs.ultralytics.com/integrations/onnx),
+[CoreML](https://docs.ultralytics.com/integrations/coreml), and
+[TFLite](https://docs.ultralytics.com/integrations/tflite).
 
 <a href="https://platform.ultralytics.com" target="_blank">
     <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
@@ -137,7 +142,7 @@ Ultralytics offers two licensing options to suit different needs:
 
 ## 📞 Contact
 
-- YOLO26 documentation: https://docs.ultralytics.com/models/yolo26/
+- YOLO26 documentation: https://docs.ultralytics.com/models/yolo26
 - Ultralytics package: https://pypi.org/project/ultralytics/
 - Canonical source code: https://github.com/ultralytics/ultralytics
 - Support and issues: https://github.com/ultralytics/ultralytics/issues/new/choose
