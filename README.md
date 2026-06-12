@@ -101,14 +101,14 @@ first use.
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| Model Family | Example Weights | Task | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| [YOLO26](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt` | [Detection](https://docs.ultralytics.com/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-seg](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt` | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-sem](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-sem.pt` `yolo26s-sem.pt` `yolo26m-sem.pt` `yolo26l-sem.pt` `yolo26x-sem.pt` | [Semantic Segmentation](https://docs.ultralytics.com/tasks/semantic) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-cls](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt` | [Classification](https://docs.ultralytics.com/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-pose](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-obb](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt` | [Oriented Detection](https://docs.ultralytics.com/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
+| Model Family                                                       | Example Weights                                                                           | Task                                                                 | Train | Val | Predict | Export |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----- | --- | ------- | ------ |
+| [YOLO26](https://platform.ultralytics.com/ultralytics/yolo26)      | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt`                          | [Detection](https://docs.ultralytics.com/tasks/detect)               | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-seg](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt`      | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment)  | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-sem](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-sem.pt` `yolo26s-sem.pt` `yolo26m-sem.pt` `yolo26l-sem.pt` `yolo26x-sem.pt`      | [Semantic Segmentation](https://docs.ultralytics.com/tasks/semantic) | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-cls](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt`      | [Classification](https://docs.ultralytics.com/tasks/classify)        | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-pose](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose)           | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-obb](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt`      | [Oriented Detection](https://docs.ultralytics.com/tasks/obb)         | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 Integrations
 

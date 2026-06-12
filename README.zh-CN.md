@@ -81,14 +81,14 @@ YOLO26 模型支持检测、实例分割、语义分割、分类、姿态估计�
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| 模型系列 | 示例权重 | 任务 | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| [YOLO26](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt` | [检测](https://docs.ultralytics.com/zh/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-seg](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt` | [实例分割](https://docs.ultralytics.com/zh/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-sem](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-sem.pt` `yolo26s-sem.pt` `yolo26m-sem.pt` `yolo26l-sem.pt` `yolo26x-sem.pt` | [语义分割](https://docs.ultralytics.com/zh/tasks/semantic) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-cls](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt` | [分类](https://docs.ultralytics.com/zh/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-pose](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO26-obb](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt` | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
+| 模型系列                                                           | 示例权重                                                                                  | 任务                                                       | Train | Val | Predict | Export |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ----- | --- | ------- | ------ |
+| [YOLO26](https://platform.ultralytics.com/ultralytics/yolo26)      | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt`                          | [检测](https://docs.ultralytics.com/zh/tasks/detect)       | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-seg](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt`      | [实例分割](https://docs.ultralytics.com/zh/tasks/segment)  | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-sem](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-sem.pt` `yolo26s-sem.pt` `yolo26m-sem.pt` `yolo26l-sem.pt` `yolo26x-sem.pt`      | [语义分割](https://docs.ultralytics.com/zh/tasks/semantic) | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-cls](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt`      | [分类](https://docs.ultralytics.com/zh/tasks/classify)     | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-pose](https://platform.ultralytics.com/ultralytics/yolo26) | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose)     | ✅    | ✅  | ✅      | ✅     |
+| [YOLO26-obb](https://platform.ultralytics.com/ultralytics/yolo26)  | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt`      | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb)  | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 集成
 
