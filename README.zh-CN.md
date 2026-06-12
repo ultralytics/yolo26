@@ -74,13 +74,13 @@ YOLO26 模型支持检测、分割、分类、姿态估计和旋转目标检测�
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| 模型系列 | 示例权重 | 任务 | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| YOLO26 | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt` | 检测 | ✅ | ✅ | ✅ | ✅ |
-| YOLO26-seg | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt` | 实例分割 | ✅ | ✅ | ✅ | ✅ |
-| YOLO26-cls | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt` | 分类 | ✅ | ✅ | ✅ | ✅ |
-| YOLO26-pose | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | 姿态估计 | ✅ | ✅ | ✅ | ✅ |
-| YOLO26-obb | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt` | 旋转目标检测 | ✅ | ✅ | ✅ | ✅ |
+| 模型系列    | 示例权重                                                                                  | 任务         | Train | Val | Predict | Export |
+| ----------- | ----------------------------------------------------------------------------------------- | ------------ | ----- | --- | ------- | ------ |
+| YOLO26      | `yolo26n.pt` `yolo26s.pt` `yolo26m.pt` `yolo26l.pt` `yolo26x.pt`                          | 检测         | ✅    | ✅  | ✅      | ✅     |
+| YOLO26-seg  | `yolo26n-seg.pt` `yolo26s-seg.pt` `yolo26m-seg.pt` `yolo26l-seg.pt` `yolo26x-seg.pt`      | 实例分割     | ✅    | ✅  | ✅      | ✅     |
+| YOLO26-cls  | `yolo26n-cls.pt` `yolo26s-cls.pt` `yolo26m-cls.pt` `yolo26l-cls.pt` `yolo26x-cls.pt`      | 分类         | ✅    | ✅  | ✅      | ✅     |
+| YOLO26-pose | `yolo26n-pose.pt` `yolo26s-pose.pt` `yolo26m-pose.pt` `yolo26l-pose.pt` `yolo26x-pose.pt` | 姿态估计     | ✅    | ✅  | ✅      | ✅     |
+| YOLO26-obb  | `yolo26n-obb.pt` `yolo26s-obb.pt` `yolo26m-obb.pt` `yolo26l-obb.pt` `yolo26x-obb.pt`      | 旋转目标检测 | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 集成
 
