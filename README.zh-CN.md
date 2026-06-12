@@ -122,7 +122,10 @@ Ultralytics 集成扩展了数据集标注、训练、可视化、部署和模�
 
 ## 📞 联系方式
 
-- YOLO26 文档：https://docs.ultralytics.com/zh/models/yolo26
-- Ultralytics 包：https://pypi.org/project/ultralytics/
-- 官方源代码：https://github.com/ultralytics/ultralytics
-- 支持与 Issues：https://github.com/ultralytics/ultralytics/issues/new/choose
+- [YOLO26 文档](https://docs.ultralytics.com/zh/models/yolo26)
+- [Ultralytics Python 包](https://pypi.org/project/ultralytics/)
+- [官方源代码](https://github.com/ultralytics/ultralytics)
+- [支持与 Issues](https://github.com/ultralytics/ultralytics/issues/new/choose)
+
+如有疑问、讨论和社区支持，请加入 [Discord](https://discord.com/invite/ultralytics)、[Reddit](https://www.reddit.com/r/ultralytics/)
+和 [Ultralytics 社区论坛](https://community.ultralytics.com/)。
