@@ -23,7 +23,7 @@ repository-code: "https://github.com/ultralytics/yolo26"
 url: "https://docs.ultralytics.com/models/yolo26"
 license: AGPL-3.0-only
 version: 8.4.0
-date-released: "2026-06-03"
+date-released: "2026-01-13"
 preferred-citation:
   type: article
   title: "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models"
