@@ -84,8 +84,13 @@ yolo predict model=yolo26n.pt source="https://ultralytics.com/images/bus.jpg"
 ```python
 from ultralytics import YOLO
 
+# Load a pretrained YOLO26n model
 model = YOLO("yolo26n.pt")
+
+# Run inference on the sample image
 results = model("https://ultralytics.com/images/bus.jpg")
+
+# Display the annotated results
 results[0].show()
 ```
 
