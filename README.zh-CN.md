@@ -22,7 +22,7 @@
 <br>
 
 [Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/zh/models/yolo26) 可通过官方
-[Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、语义分割、图像分类、姿态估计、旋转目标检测和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
+[Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、语义分割、深度估计、图像分类、姿态估计、旋转目标检测和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
 
 本仓库是 YOLO26 的轻量级发现入口。官方实现、软件包发布、模型下载、Issues 和 Pull Requests 均在
 [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 仓库维护。
