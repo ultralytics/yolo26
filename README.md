@@ -23,8 +23,8 @@
 
 [Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/models/yolo26) is available
 through the official [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) package. It supports object
-detection, instance segmentation, semantic segmentation, image classification, pose estimation, oriented object
-detection, and tracking in a fast, accurate, and easy to use Python and CLI workflow.
+detection, instance segmentation, semantic segmentation, depth estimation, image classification, pose estimation,
+oriented object detection, and tracking in a fast, accurate, and easy to use Python and CLI workflow.
 
 This repository is a lightweight discovery page for YOLO26. The canonical implementation, package releases, model
 downloads, issues, and pull requests are maintained in [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics).
