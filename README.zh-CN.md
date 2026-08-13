@@ -83,7 +83,7 @@ results[0].show()
 YOLO26 模型支持检测、实例分割、语义分割、深度估计、分类、姿态估计和旋转目标检测。所有模型权重都会在首次使用时从最新的 Ultralytics assets 发布版本自动下载。
 
 <a href="https://docs.ultralytics.com/zh/tasks" target="_blank">
-    <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
+    <img width="100%" src="https://cdn.ul.run/i/c99d914c3958d0755b5a3d7204b6f24a.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
 | 模型                                                                | 示例权重                                                                                                                                                                                                                                                                                                                                                                                                                                                | 任务                                                       | Train | Val | Predict | Export |
