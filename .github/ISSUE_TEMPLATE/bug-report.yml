@@ -1,0 +1,62 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+name: 🐛 Bug Report
+description: Report an error in the Ultralytics YOLO26 README, links, or citation
+labels: [bug, triage]
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting an Ultralytics YOLO26 🐛 Bug Report!
+
+        This repository is the discovery and quickstart page for Ultralytics YOLO26: README, translated README, license, and citation only. For bugs in the `ultralytics` Python package or `yolo` CLI, please use the [Ultralytics repository](https://github.com/ultralytics/ultralytics/issues).
+
+  - type: checkboxes
+    attributes:
+      label: Search before asking
+      description: >
+        Please search the [YOLO26 docs](https://docs.ultralytics.com/models/yolo26) and [issues](https://github.com/ultralytics/yolo26/issues) to see if a similar bug report already exists.
+      options:
+        - label: >
+            I have searched the Ultralytics [issues](https://github.com/ultralytics/yolo26/issues) and found no similar bug report.
+          required: true
+
+  - type: dropdown
+    attributes:
+      label: Component
+      description: |
+        Please select the part of the repository where you found the problem.
+      multiple: true
+      options:
+        - "README"
+        - "Translated README"
+        - "Links"
+        - "Model weights"
+        - "Citation"
+        - "Other"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Bug
+      description: Please describe the problem and where it appears. Quote the incorrect text or link and, if relevant, what it should say. Use [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to format text and links.
+      placeholder: |
+        💡 ProTip! Link the exact line or section of the README so we can fix it quickly.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional
+      description: Anything else you would like to share?
+
+  - type: checkboxes
+    attributes:
+      label: Are you willing to submit a PR?
+      description: >
+        (Optional) We encourage you to submit a [Pull Request](https://github.com/ultralytics/yolo26/pulls) (PR) to help improve Ultralytics software for everyone, especially if you have a good understanding of how to implement a fix or feature.
+        See the Ultralytics [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started.
+      options:
+        - label: Yes I'd like to help by submitting a PR!
