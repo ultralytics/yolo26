@@ -10,7 +10,7 @@
     <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" alt="Ultralytics CI"></a>
     <a href="https://clickpy.clickhouse.com/dashboard/ultralytics"><img src="https://static.pepy.tech/badge/ultralytics" alt="Ultralytics Downloads"></a>
     <a href="https://discord.com/invite/ultralytics"><img alt="Ultralytics Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
-    <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a>
+    <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a>
     <a href="https://www.reddit.com/r/ultralytics/"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
     <br>
     <a href="https://console.paperspace.com/github/ultralytics/ultralytics"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run Ultralytics on Gradient"></a>
@@ -21,7 +21,7 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/models/yolo26) is available
+[Ultralytics](https://www.ultralytics.com) [YOLO26](https://docs.ultralytics.com/models/yolo26) is available
 through the official [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) package. It supports object
 detection, instance segmentation, semantic segmentation, depth estimation, image classification, pose estimation,
 oriented object detection, and tracking in a fast, accurate, and easy to use Python and CLI workflow.
@@ -159,7 +159,7 @@ or upgrade the [Ultralytics Python package](https://pypi.org/project/ultralytics
 
 For questions, discussions, and community support, join our active communities on
 [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the
-[Ultralytics Community Forums](https://community.ultralytics.com/).
+[Ultralytics Community Forums](https://community.ultralytics.com).
 
 <br>
 <div align="center">
