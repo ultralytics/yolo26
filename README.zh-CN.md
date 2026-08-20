@@ -10,7 +10,7 @@
     <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" alt="Ultralytics CI"></a>
     <a href="https://clickpy.clickhouse.com/dashboard/ultralytics"><img src="https://static.pepy.tech/badge/ultralytics" alt="Ultralytics Downloads"></a>
     <a href="https://discord.com/invite/ultralytics"><img alt="Ultralytics Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
-    <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a>
+    <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a>
     <a href="https://www.reddit.com/r/ultralytics/"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
     <br>
     <a href="https://console.paperspace.com/github/ultralytics/ultralytics"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run Ultralytics on Gradient"></a>
@@ -21,7 +21,7 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLO26](https://docs.ultralytics.com/zh/models/yolo26) 可通过官方
+[Ultralytics](https://www.ultralytics.com) [YOLO26](https://docs.ultralytics.com/zh/models/yolo26) 可通过官方
 [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、语义分割、深度估计、图像分类、姿态估计、旋转目标检测和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
 
 本仓库是 YOLO26 的轻量级发现入口。官方实现、软件包发布、模型下载、Issues 和 Pull Requests 均在
@@ -132,7 +132,7 @@ YOLO26 使用指南请先查看 [YOLO26 文档](https://docs.ultralytics.com/zh/
 > 提交错误报告和功能请求，方便维护者结合源代码统一分类处理。
 
 如有疑问、讨论和社区支持，请加入 [Discord](https://discord.com/invite/ultralytics)、[Reddit](https://www.reddit.com/r/ultralytics/)
-和 [Ultralytics 社区论坛](https://community.ultralytics.com/)。
+和 [Ultralytics 社区论坛](https://community.ultralytics.com)。
 
 <br>
 <div align="center">

@@ -9,7 +9,7 @@ contact_links:
     url: https://github.com/ultralytics/ultralytics/issues
     about: Report bugs in the ultralytics Python package or yolo CLI
   - name: 💬 Forum
-    url: https://community.ultralytics.com/
+    url: https://community.ultralytics.com
     about: Ask on Ultralytics Community Forum
   - name: 🎧 Discord
     url: https://ultralytics.com/discord
